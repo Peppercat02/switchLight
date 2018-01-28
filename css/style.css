@@ -1,0 +1,50 @@
+#frame {
+    box-sizing: border-box;
+    width: 500px;
+    height: 298px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+#left_frame {
+    width: 398px;
+    height: 298px;
+    float: left;
+
+}
+
+#left_frame #image {
+    margin: 10px;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+#right_frame {
+    width: 98px;
+    height: 298px;
+    float: left;
+    border-left: 1px solid #000;
+}
+
+#right_frame #timer {
+    display: inline-block;
+    margin: 10px;
+    width: 70px;
+    height: 70px;
+    background-color: #92a8d1;
+    border: 5px solid #92a8FF;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#right_frame #button {
+    display: inline-block;
+    margin: 10px;
+    width: 80px;
+    height: 150px;
+    background-color: #92a8d1;
+    border: 5px solid #92a8FF;
+    border-radius: 10px;
+    font-size: 20px;
+}

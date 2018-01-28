@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/switch.js"></script>
+  </head>
+  <body>
+    <div id="frame">
+        <div id="left_frame">
+            <img id="image" src="img/on.jpg" />
+        </div>
+        <div id="right_frame">
+            <form id="myForm" action="index.html">
+                <input  id="timer" type="number" value="0" onkeypress="setTimer()" />
+                <input type="submit"/>
+            </form>
+
+            <button id="button" onclick="toggleLight()">ON<br>-<br>OFF</button>
+        </div>
+    </div>
+  </body>
+</html>
